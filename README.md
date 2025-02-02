@@ -50,7 +50,7 @@ python main.py train --exp_name example --cfg example.yml
 ```
 For example, to train LaneATT with the ResNet-34 backbone on TuSimple, run:
 ```
-python main.py train --exp_name laneatt_r34_tusimple --cfg cfgs/laneatt_tusimple_resnet34.yml
+python main.py train --exp_name laneatt_tusimple_resnet18 --cfg cfgs/laneatt_tusimple_resnet18.yml
 ```
 After running this command, a directory `experiments` should be created (if it does not already exists). Another
 directory `laneatt_r34_tusimple` will be inside it, containing data related to that experiment (e.g., model checkpoints, logs, evaluation results, etc)

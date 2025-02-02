@@ -1,0 +1,6 @@
+*.jpg
+datasets/*
+lib/*
+experiments/*
+tensorboard/*
+*.pyc

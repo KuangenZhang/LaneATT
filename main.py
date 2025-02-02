@@ -6,7 +6,8 @@ import torch
 from lib.config import Config
 from lib.runner import Runner
 from lib.experiment import Experiment
-
+import warnings
+warnings.filterwarnings("ignore", message="Named tensors and all their associated APIs are an experimental feature")
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Train lane detector")
